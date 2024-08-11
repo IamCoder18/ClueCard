@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  text-align: center;
+}
+
+*{
+    font-family: "Regular"!important;
+}
+
+.containerb{
+    height: 100%;
+    width: 100%;
+}
+
+.block{
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    width: 150px;
+}
+
+table, tr, td{
+    width: 100%;
+}
+
+.tdSelect{
+    font-size: 30px;
+}
+
+.mustard{
+    padding: 10px;
+    background-color: #fff34b;
+    border-radius: 20px;
+}
+
+.plum{
+    padding: 10px;
+    background-color: #ea4bff;
+    color: white;
+    border-radius: 20px;
+}
+
+.green{
+    padding: 10px;
+    background-color: #35bc43;
+    color: white;
+    border-radius: 20px;
+}
+
+.peacock{
+    padding: 10px;
+    background-color: #4b6fff;
+    color: white;
+    border-radius: 20px;
+}
+
+.scarlet{
+    padding: 10px;
+    background-color: #ff4b4b;
+    color: white;
+    border-radius: 20px;
+}
+
+.white{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.person{
+    min-width: 150px;
+    width: calc((100% / 6) - 3px);
+}
+
+.weapon{
+    min-width: 180px;
+    width: calc((100% / 6) - 3px);
+}
+
+.room{
+    min-width: 180px;
+    width: calc((100% / 6) - 3px);
+}
+
+.poison{
+    background-image: url('https://images.theconversation.com/files/515276/original/file-20230314-2595-90gnm9.jpg');
+    background-size: cover;
+}
+
+.knife{
+    background-image: url('./images/knife.png');
+    background-size: cover;
+}
+
+.pistol{
+    background-image: url('./images/pistol.jpg');
+    background-size: cover;
+}
+
+.candlestick{
+    background-image: url('./images/candle.jpg');
+    background-size: cover;
+}
+
+.rope{
+    background-image: url('./images/rope.png');
+    background-size: cover;
+}
+
+.dumbbell{
+    background-image: url('./images/dumbbell.png');
+    background-size: cover;
+}
+
+.weapon .white{
+    background-color: #ffffff53!important;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.room .white{
+    background-color: #ffffff53!important;
+    backdrop-filter: blur(10px);
+}
